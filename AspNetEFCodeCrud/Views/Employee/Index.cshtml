@@ -1,0 +1,88 @@
+﻿<div class="page-title">
+	<h3>
+		Employee List
+		<a asp-action="Create" asp-controller="Employee" class="btn btn-sm btn-outline-primary float-end"><i class="fas fa-plus-circle"></i> Add Employee</a>
+
+	</h3>
+</div>
+<div class="box box-primary">
+	<div class="box-body">
+		<div class="row">
+			<div class="col-lg-6">
+				<form accept-charset="utf-8">
+					<div class="row g-2">
+						<div class="col-auto">
+							<input type="text" name="search" placeholder="Search" class="form-control">
+						</div>
+						<div class="col-auto">
+							<button type="submit" class="btn btn-primary">Search</button>
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</div>
+		<div class="table-responsive">
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>Image</th>
+						<th>First Name</th>
+						<th>Last Name</th>
+						<th>Phone</th>
+						<th class="text-end">Action</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img width="70px" src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"></td>
+						<td>Mayur</td>
+						<td>Lohite</td>
+						<td>+917599707274</td>
+						<td class="text-end">
+							<a href="" class="btn btn-outline-info btn-rounded"><i class="fas fa-pen"></i></a>
+							<a href="" class="btn btn-outline-danger btn-rounded"><i class="fas fa-trash"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td><img width="70px" src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"></td>
+						<td>Mayur</td>
+						<td>Lohite</td>
+						<td>+917599707274</td>
+						<td class="text-end">
+							<a href="" class="btn btn-outline-info btn-rounded"><i class="fas fa-pen"></i></a>
+							<a href="" class="btn btn-outline-danger btn-rounded"><i class="fas fa-trash"></i></a>
+						</td>
+					</tr>
+					<tr>
+						<td><img width="70px" src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg"></td>
+						<td>Mayur</td>
+						<td>Lohite</td>
+						<td>+917599707274</td>
+						<td class="text-end">
+							<a href="" class="btn btn-outline-info btn-rounded"><i class="fas fa-pen"></i></a>
+							<a href="" class="btn btn-outline-danger btn-rounded"><i class="fas fa-trash"></i></a>
+						</td>
+					</tr>
+
+				</tbody>
+			</table>
+		</div>
+	</div>
+
+</div>
+<nav aria-label="...">
+	<ul class="pagination">
+		<li class="page-item disabled">
+			<a class="page-link" href="#" tabindex="-1">Previous</a>
+		</li>
+		<li class="page-item"><a class="page-link" href="#">1</a></li>
+		<li class="page-item active">
+			<a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="page-item"><a class="page-link" href="#">3</a></li>
+		<li class="page-item">
+			<a class="page-link" href="#">Next</a>
+		</li>
+	</ul>
+</nav>
